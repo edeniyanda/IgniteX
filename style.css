@@ -298,5 +298,22 @@ section {
         color: white;
     }
 
+    .explore-cont .patch {
+    
+        /* margin-top: 20px; */
+        color: white;
+        background-color: transparent;;
+        padding: 10px;
+        border: 2px solid #fc036b;
+        border-radius: 5px;
+        transition: 0.6s;
+        
+    }
+    
+    .explore-cont .patch:hover{
+        background-color: #fc036b;
+        color: white;
+        transition: 0.6s;
+    }
 }
 
