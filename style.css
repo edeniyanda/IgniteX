@@ -164,7 +164,23 @@ section {
     margin-bottom: 20px;
     text-align: left;
 }
+.col .patch {
+    
+    /* margin-top: 20px; */
+    color: #7c7c7c;
+    background-color: transparent;;
+    padding: 10px;
+    border: 2px solid #fc036b;
+    border-radius: 5px;
+    transition: 0.6s;
+    
+}
 
+.col .patch:hover{
+    background-color: #fc036b;
+    color: white;
+    transition: 0.6s;
+}
 .patch {
     
     /* margin-top: 20px; */
@@ -221,6 +237,10 @@ section {
     line-height: 20px;
     color: rgb(218, 210, 210);
 }
+
+
+
+
 
 /* Mobile Screen Device */
 @media only screen and (max-width:768px){
