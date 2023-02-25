@@ -226,6 +226,7 @@ section {
 
 .explore-cont h1 {
     font-size: 7vmin;
+    margin-bottom: 40px;
     
 }
 
@@ -234,14 +235,26 @@ section {
     height: 5px;
 }
 .explore-cont p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     line-height: 20px;
     color: rgb(218, 210, 210);
 }
 
+.upcoming .row {
+    align-items: center;
+}
+.upcoming .row .col {
+    width: 50%;
+}
+.upcoming .img-gal {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-
-
+.img-gal img {
+    border-radius: 0px;
+    width: 200px;
+}
 
 /* Mobile Screen Device */
 @media only screen and (max-width:768px){
