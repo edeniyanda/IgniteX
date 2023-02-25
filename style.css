@@ -30,6 +30,8 @@ a {
     color: whitesmoke;
 }
 .f-nav ul {
+    background: linear-gradient(rgba(42, 41, 41, 0.7),rgba(55, 53, 53, 0.7));
+    border-top-left-radius: 30px;
     display: flex;
     color:  whitesmoke;
 
