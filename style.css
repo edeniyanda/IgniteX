@@ -252,10 +252,18 @@ section {
 }
 
 .img-gal img {
-    border-radius: 0px;
+    border-radius: 2px;
     width: 200px;
+    margin: 10px;
 }
 
+.upcoming .title{
+    margin-bottom: 40px;
+}
+
+.footer {
+    
+}
 /* Mobile Screen Device */
 @media only screen and (max-width:768px){
     .f-nav {
@@ -348,6 +356,9 @@ section {
         background-color: #fc036b;
         color: white;
         transition: 0.6s;
+    }
+    .upcoming {
+        display: none;
     }
 }
 
