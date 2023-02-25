@@ -310,6 +310,9 @@ section {
     .mobile-menu {
         margin-top: 0px;
     }
+    .f-nav ul {
+        background: transparent;
+    }
     .f-nav .fa-solid {
         position: absolute;
         display: block;
