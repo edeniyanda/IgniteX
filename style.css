@@ -190,8 +190,8 @@ section {
 .explore {
     width: 100%;
     height: 80vh;
-    background-image: url('img/bb2.jpeg');
-    background-position: center;
+    background-image: url('img/bb10.jpg');
+    background-position: top;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -201,7 +201,7 @@ section {
 .explore-cont {
     width: 50%;
     padding: 50px;
-    color: whitesmoke;
+    color: rgb(241, 239, 239);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -278,6 +278,25 @@ section {
         margin-bottom: 20px;
     }
 
-    
+
+    .explore {
+        position: relative;
+        background-image: linear-gradient(rgba(47, 52, 66, 0.7), rgBa(4,9,30,0.7)),url("img/bb14.jpg");
+
+    }
+    .explore-cont {
+        /* margin-top: 190px; */
+        padding-left: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        /* top: 50px; */
+    }
+    .explore-cont p {
+        color: white;
+    }
+
 }
 
