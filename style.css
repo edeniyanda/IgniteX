@@ -304,12 +304,13 @@ section {
         height: 100vh;
         justify-content: center;
         background-color: rgb(21, 19, 27);
-        margin-top: -900px;
+        margin-right: -900px;
         transition: 1s;
 
     }
     .f-nav-link.mobile-menu {
-        margin-top: 0px;
+        margin-right: 0px;
+        transition: 1s;
     }
     .f-nav ul {
         background:black;
