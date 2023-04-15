@@ -296,7 +296,6 @@ section {
 
     }
     .f-nav ul{
-
         position: absolute;
         flex-direction: column;
         top: 0;
@@ -313,7 +312,10 @@ section {
         margin-top: 0px;
     }
     .f-nav ul {
-        background: transparent;
+        background:black;
+    }
+    .f-nav ul li:nth-child(all){
+        margin-left: 0px;
     }
     .f-nav .fa-solid {
         position: absolute;
