@@ -286,6 +286,7 @@ section {
 @media only screen and (max-width:768px){
     .f-nav {
         padding: 0;
+        background-color: black;
     }
 
     .logo {
@@ -305,9 +306,10 @@ section {
         justify-content: center;
         background-color: rgb(21, 19, 27);
         margin-top: -900px;
+        transition: 1s;
 
     }
-    .mobile-menu {
+    .f-nav-link.mobile-menu {
         margin-top: 0px;
     }
     .f-nav ul {

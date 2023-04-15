@@ -21,7 +21,7 @@
             <li><a href="#">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
-        <i class="fa-solid fa-bars"></i>
+        <span class="toggler"><i class="fa-solid fa-bars"></i></span>
     </nav>
     <header>
         <div class="head-cont">
@@ -100,11 +100,12 @@
     </section>
 
     <script>
-        const menuBtn = document.querySelector('.f-nav .fa-solid')
+        const menuBtn = document.querySelector('.toggler')
         const navlinks = document.querySelector('.f-nav-link')
 
         menuBtn.addEventListener('click',()=>{
             navlinks.classList.toggle('mobile-menu')
+            console.log("clicked");
         })
     </script>
 </body>
