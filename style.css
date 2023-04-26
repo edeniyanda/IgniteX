@@ -284,7 +284,10 @@ section {
 }
 /* Mobile Screen Device */
 @media only screen and (max-width:768px){
-     body {
+    html {
+        overflow-x: hidden;
+    }
+    body {
         overflow-x: hidden;
     }
     .f-nav {
